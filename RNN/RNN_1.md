@@ -10,17 +10,17 @@ RNN network seems to have **_memory_**, people use it to analyze videos, context
 - Recommendation System (Youtube, Ebay, TaoBao)
 ## How RNN get "memory"?
 Like common NN, RNN is made up of **Input Layer**, **Hidden Layer**, **Output Layer**.
-![alt text](https://github.com/wangruiling888/NN-learning/blob/master/RNN/pic1.png)
+![alt text](https://github.com/wangruiling888/NN-learning/blob/master/RNN/pic1.png) <br>
 The differences between other NN and RNN is that: The hidden layer of RNN has a circle for accpeting input at different moment.
-![alt text](https://github.com/wangruiling888/NN-learning/blob/master/RNN/pic2.png)
+![alt text](https://github.com/wangruiling888/NN-learning/blob/master/RNN/pic2.png) <br>
 **t-1, t, t+1** stands for time series, **X** is input, **St** is the statement at time **t**, **U, W, V** are all weights:
 - **U** is the weight for current input **Xt**.
 - **W** is the weight of input for last time point
 - **V** is weight of output
 when t = 0, we have:
-![alt text](https://github.com/wangruiling888/NN-learning/blob/master/RNN/pic3.png)
+![alt text](https://github.com/wangruiling888/NN-learning/blob/master/RNN/pic3.png) <br>
 f(x) and g(x) are both **activation function**
 We have output:
-![alt text](https://github.com/wangruiling888/NN-learning/blob/master/RNN/pic4.png)
+![alt text](https://github.com/wangruiling888/NN-learning/blob/master/RNN/pic4.png)<br>
 **Hidden layer: S = f(current statement + previous conclusion)**
 
