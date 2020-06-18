@@ -23,4 +23,7 @@ f(x) and g(x) are both **activation function**<br>
 We have output:<br>
 ![alt text](https://github.com/wangruiling888/NN-learning/blob/master/RNN/pic4.png)<br>
 **Hidden layer: S = f(current statement + previous conclusion)**<br>
+## Back Propagation of RNN
+Using Back Propagation through time. The mathematical theory is **_Gradient Descent_**.
+
 
